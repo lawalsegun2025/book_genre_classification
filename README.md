@@ -31,7 +31,17 @@ Book genres are simple classifications, allowing readers to know what kind of bo
 Genres are like the flavours of the literary world – they provide a way for readers to easily find books that will satisfy their particular cravings, whether it be for romance, fantasy, mystery, or any of the other countless flavours out there. They also help writers market their work to the right people, as each genre comes with an audience of fans who are primed to love your book!
 
 This project will help readers to easily identify the book genres that is of interest to them.
+
 ## Problem Solving Steps
+
+1. Load the data into a dataframe.
+2. Perform Data Preprocessing like handling missing values, feature creation etc.
+3. Perform Exploratory Data Analysis and ge valuable insights from the data.
+4. Perform Feature Selection.
+5. Build and select the model that best fits the data.
+6. Save the model in a pickle file and integrate the model with the User Interface which will be made with Flask frame work
+7. Deploy the model on a cloud service platform.
+
 
 ## Source of Dataset
 
