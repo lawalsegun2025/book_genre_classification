@@ -14,6 +14,13 @@
 
 ## Overview
 
+In the project, we built a model that is capable of predicting the genre of a book by its summary as;
+ - Thriller
+ - Science-Fiction
+ - Fiction
+ - and many more.
+
+
 <div align="center">
   <img src="img/book_genre.png">
 </div>
