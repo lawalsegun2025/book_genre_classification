@@ -22,7 +22,7 @@ In the project, we built a model that is capable of predicting the genre of a bo
 
 <div align="center">
   <img src="img/book_genre.png">
-</div></br></br>
+</div>
 
 ## Motivation
 
