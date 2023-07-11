@@ -18,14 +18,19 @@ In the project, we built a model that is capable of predicting the genre of a bo
  - Thriller
  - Science-Fiction
  - Fiction
- - and many more.
-
+ - and many more.</br></br>
 
 <div align="center">
   <img src="img/book_genre.png">
-</div>
+</div></br></br>
 
 ## Motivation
+
+Book genres are simple classifications, allowing readers to know what kind of book they are reading. They also allow publishers to know what kind of book they are being asked to publish, so genre knowledge is an essential part of the querying process.
+
+Genres are like the flavours of the literary world – they provide a way for readers to easily find books that will satisfy their particular cravings, whether it be for romance, fantasy, mystery, or any of the other countless flavours out there. They also help writers market their work to the right people, as each genre comes with an audience of fans who are primed to love your book!
+
+Therefore this project will help readers to easily identify the book genres of their interest
 
 ## Problem Solving Steps
 
