@@ -71,3 +71,14 @@ def test(text, model, tfidf_vectorizer):
                  3: 'Historical novel', 4: 'Horror', 5: 'Thriller'}
     
     return new_mapper[predicted[0]]
+
+# Loading the model and tfidf vectorizer
+file = open("book_genre_model.pkl", "rb")
+model = pickle.load(file)
+file.close()
+
+file_1 = open("tfidf_vector.pkl", "rb")
+tfidf_vectorizer = pickle.load(file_1)
+file_1.close()
+
+
