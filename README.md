@@ -32,8 +32,9 @@ https://github.com/lawalsegun2025/book_genre_classification/assets/94943377/75c2
 In the project, we built a model that is capable of predicting the genre of a book by its summary as;
  - Thriller
  - Science-Fiction
- - Fiction
- - and many more.</br></br>
+ - Crime Fiction
+ - Fantasy
+ - Horror </br></br>
 
 <div align="center">
   <img src="img/book_genre.png">
