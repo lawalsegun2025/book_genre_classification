@@ -1,6 +1,7 @@
 # Book Genre Classification
 
 ## Table of Content
+* [Demo](#demo)
 * [Overview](#overview)
 * [Motivation](#motivation)
 * [Problem Solving Steps](#problem-solving-steps)
@@ -11,6 +12,20 @@
 * [Model Performance](#model-performance)
 * [Deployment](#deployment)
 * [Future scope of project](#future-scope-of-project)
+
+## Demo
+
+
+
+
+https://github.com/lawalsegun2025/book_genre_classification/assets/94943377/75c24123-40fa-49fb-82f0-7bd38d787bad
+
+
+
+
+
+
+
 
 ## Overview
 
