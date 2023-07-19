@@ -44,3 +44,14 @@ def lemmatizing(text):
     
     return " ".join(text)
 
+# stemming the text
+def stemming(text):
+    stemmer = PorterStemmer()
+
+    text = text.split()
+    
+    # stem
+    text = [stemmer.stem(word) for word in text]
+    
+    return " ".join(text)
+
