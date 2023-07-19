@@ -55,3 +55,19 @@ def stemming(text):
     
     return " ".join(text)
 
+
+# testing the model
+def test(text, model, tfidf_vectorizer):
+    
+    text = clean_text(text)
+    text = remove_stop_words(text)
+    text = lemmatizing(text)
+    text = stemming(text)
+    
+    text_vector = tfidf_vectorizer.transform([text])
+    predicted = model.predict(text_vector)
+
+    new_mapper = {0: 'Fantasy', 1: 'Science Fiction', 2: 'Crime Fiction',
+                 3: 'Historical novel', 4: 'Horror', 5: 'Thriller'}
+    
+    return new_mapper[predicted[0]]
