@@ -167,7 +167,28 @@ We can now see that the most common words have changed after removing the stopwo
 
 ## Model Building
 
+Three models were built in this project, these include
+- Support Vector Classifier
+- Multinomial Naive Bayes and
+- RandomForestClassifier
+
+The models were trained on text data that were vectorized using;
+- Count Vectorizer and
+- TF-IDF Vectorizer
+
 ## Model Performance
+
+The models performed better when trained on data vectorized with TF-IDF. Below is a summary of the models results.
+
+<div align="center">
+ 
+ | Models   | Accuracy (Count Vetorizer) | Accuracy (TF-IDF Vectorizer) |
+ | ---------| -------------------------- | ---------------------------- |
+ | SVC      | 57%                        | 71%                          |
+ | MN Bayes | 67%                        | 73%                          |
+ | RF       | 61%                        | 63%                          |
+ 
+</div>
 
 ## Deployment
 
