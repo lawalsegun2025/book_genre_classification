@@ -61,6 +61,29 @@ This project will help readers to easily identify the book genres that is of int
 
 ## Source of Dataset
 
+<p>
+                        The CMU Book Summary Dataset supports ongoing work described in:
+                    </p>
+                    <p>
+
+                    </p>
+                    <p>
+                        David Bamman and Noah Smith (2013), "New Alignment Methods for Discriminative Book Summarization," [<a href="http://arxiv.org/abs/1305.1319">ArXiv</a>]
+                    </p>
+
+                    <a href="data/booksummaries.tar.gz">booksummaries.tar.gz</a> [17M]
+                    <p>
+
+                    </p>
+                    <hr>
+
+                    <p>
+                        This dataset contains plot summaries for 16,559 books extracted from Wikipedia, along with aligned metadata from Freebase, including book author, title, and genre. </p>
+
+                    <p>
+                        All data is released under a <a href="http://creativecommons.org/licenses/by-sa/3.0/us/legalcode">Creative Commons
+                                Attribution-ShareAlike License</a>. For questions or comments, please contact David Bamman (dbamman@cs.cmu.edu).</p>
+
 ## Data Cleaning Techniques
 
 ## Exploratory Data Analysis
