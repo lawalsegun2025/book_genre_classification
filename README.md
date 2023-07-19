@@ -11,7 +11,6 @@
 * [Model Building](#model-building)
 * [Model Performance](#model-performance)
 * [Deployment](#deployment)
-* [Future scope of project](#future-scope-of-project)
 
 ## Demo
 
