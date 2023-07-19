@@ -15,7 +15,19 @@ def clean_text(text):
     # remove special characters an leaving only text(both lower and upper)
     text = re.sub("[^a-zA-Z]", " ", text)
 
+    # Remove white spaces
+    text = " ".join(text.split())
+
     # Conevrt text to lowercase
     text = text.lower()
 
     return text
+
+# remove stopwords 
+def remove_stop_words(text):
+    
+    stop_words = set(stopwords.words("english"))
+
+    removed_stop_word = [word for word in text.split() if word not in stop_words]
+    
+    return ' '.join(removed_stop_word)
