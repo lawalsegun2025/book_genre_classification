@@ -130,6 +130,41 @@ def stemming(text):
 
 ## Exploratory Data Analysis
 
+First we got a visual of the distribution of the genres in the dataset
+</br></br>
+
+<div align="center">
+  <img src="img/genres.png">
+</div>
+
+</br></br>
+As it can be seen in the above plot, the this is a balanced labelled multi-class classification.
+
+Before removing the stopwords, we analysed the most freequent words and below is the result we got
+</br></br>
+
+<div align="center">
+  <img src="img/common_words_with_stop_words.png">
+</div>
+
+</br></br>
+We can see that before removing the stop words, the most common words are the, to, and, of etc. These words do not add so much meaning to the model.
+
+Below is the plot of the most common words after removing the stopwords;
+</br></br>
+
+<div align="center">
+  <img src="img/common_words.png">
+</div>
+
+</br></br>
+
+We can now see that the most common words have changed after removing the stopwords. The most common words are; one, find, kill, take etc. These words adds more meaning to the model.
+
+
+
+
+
 ## Model Building
 
 ## Model Performance
