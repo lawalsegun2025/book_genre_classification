@@ -187,10 +187,12 @@ The models performed better when trained on data vectorized with TF-IDF. Below i
  | SVC      | 57%                        | 71%                          |
  | MN Bayes | 67%                        | 73%                          |
  | RF       | 61%                        | 63%                          |
- 
+
 </div>
+
+All the models improved when the text data was vectorized using TF-IDF Vectorizer. Multinomial Naive Bayes was the best performing model. 
 
 ## Deployment
 
-## Future scope of project
+Model was deployed on Render.
 
