@@ -3,7 +3,7 @@ from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.corpus import stopwords
 import re 
 import nltk 
-from flask import Flask, rquest, render_template
+from flask import Flask, request, render_template
 
 # cleaning the text data (removing all unnecessary characters)
 
