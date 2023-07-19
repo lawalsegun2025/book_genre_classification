@@ -73,6 +73,61 @@ All data is released under a <a href="http://creativecommons.org/licenses/by-sa/
 
 ## Data Cleaning Techniques
 
+The following codes were used to preprocess the text data;
+
+```python
+# Write a function to clean the text
+def clean_text(text):
+    
+    # remove the "\" sign
+    text = re.sub("'\''","",text)
+    
+    # remove special symbols
+    text = re.sub("[^a-zA-Z]", " ", text)
+    
+    # Remove white spaces
+    text = " ".join(text.split())
+    
+    # Conevrt text to lowercase
+    text = text.lower()
+    
+    return text
+
+# remove stopwords 
+def remove_stop_words(text):
+    
+    stop_words = set(stopwords.words("english"))
+
+    removed_stop_word = [word for word in text.split() if word not in stop_words]
+    
+    return ' '.join(removed_stop_word)
+
+# lemmatizing the text
+def lemmatizing(text): 
+
+    lemma = WordNetLemmatizer()
+
+    text = text.split()
+    
+    # lemmatize
+    text = [lemma.lemmatize(word) for word in text]
+    
+    return " ".join(text)
+
+# stemming the text
+def stemming(text):
+    stemmer = PorterStemmer()
+
+    text = text.split()
+    
+    # stem
+    text = [stemmer.stem(word) for word in text]
+    
+    return " ".join(text)
+
+
+```
+
 ## Exploratory Data Analysis
 
 ## Model Building
