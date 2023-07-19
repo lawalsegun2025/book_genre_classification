@@ -82,3 +82,19 @@ tfidf_vectorizer = pickle.load(file_1)
 file_1.close()
 
 
+app = Flask(__name__)
+
+@app.route('/', methods=["GET", "POST"])
+def hello_world():
+
+    if request.method == "POST":
+
+        my_dict = request.form
+        text = my_dict["summary"]
+        prediction = test(text, model, tfidf_vectorizer)
+
+        return render_template('index.html', genre=prediction, text=str(text)[:100], show_result=True)
+    return render_template("index.html")
+
+if __name__=='__main__':
+    app.run(host='0.0.0.0', port=8080)
