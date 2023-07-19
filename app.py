@@ -31,3 +31,16 @@ def remove_stop_words(text):
     removed_stop_word = [word for word in text.split() if word not in stop_words]
     
     return ' '.join(removed_stop_word)
+
+# lemmatizing the text
+def lemmatizing(text): 
+
+    lemma = WordNetLemmatizer()
+
+    text = text.split()
+    
+    # lemmatize
+    text = [lemma.lemmatize(word) for word in text]
+    
+    return " ".join(text)
+
